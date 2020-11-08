@@ -1,5 +1,7 @@
 package com.db.stu;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TestHello {
 	public static <T> void DisplayArray(T[] anArray){
@@ -16,6 +18,10 @@ public class TestHello {
 		DisplayArray(strArray);
 		Integer intArray []={1,2,3,4,5};
 		DisplayArray(intArray);
+		Map<Integer,String> map = new HashMap<>();
+		map.put(1,"nice");
+		map.put(2,"fantastic");
+		System.out.println(map.get(2));
 		
 		
 		
